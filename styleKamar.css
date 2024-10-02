@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+}
+
+body {
+  background-color: blue;
+  background-image: url('Foto/background.jpg');
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  background-color: cyan;
+  display: flex;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  position: sticky;
+  top: 0;
+  z-index: 9999;
+}
+
+.logo {
+  margin-right: 60px;
+  margin-left: 30px;
+}
+
+.logo h1 {
+  font-size: 50px;
+  color: white;
+}
+
+.nav {
+  margin-left: 20px;
+  display: flex;
+}
+
+.nav a {
+  font-size: 30px;
+  margin-right: 15px;
+  color: white;
+  text-decoration: none;
+}
+
+.tigaPilihan {
+  margin-top: 150px;
+  margin-bottom: 150px;
+  display: flex;
+  margin-left: 300px;
+  margin-right: 300px;
+  justify-content: space-between;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+	margin-right: 20px;
+}
+
+.tipe h1 {
+  color: white;
+}
+
+.deskripsi {
+  color: white;
+}
+
+.footer {
+  background-color: cyan;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.yeah {
+  color: white;
+}
+
+.namamu h1 {
+  /* Create a linear gradient with multiple color stops */
+  background-image: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet);
+  
+  /* Apply the background color as a mask for the text */
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  
+  /* Add animation */
+  background-size: 200% auto;
+  animation: rainbowText 10s linear infinite;
+}
+
+@keyframes rainbowText {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
+
+.gambar img{
+	height: 200px;
+	width: 250px;
+	border: white;
+	border-radius: 5px;
+}

@@ -1,0 +1,155 @@
+*{
+	margin: 0;
+}
+
+body{
+	background-color: blue;
+	background-image: url('Foto/background.jpg');
+  background-size: cover;
+}
+
+.header {
+	background-color: cyan;
+	display: flex;
+	/* justify-content: space-between; */
+	padding-bottom: 20px;
+	padding-top: 20px;
+	position: sticky;
+	top: 0;
+	z-index: 9999;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+.logo{
+	margin-right: 60px;
+	margin-left: 30px;
+}
+
+.logo h1{
+	font-size: 50px;
+	color: white;
+	/* animation: spin 1s linear infinite; */
+}
+
+.nav{
+	margin-left: 20px;
+	display: flex;
+}
+
+.nav a{
+	font-size: 30px;
+	margin-right: 15px;
+	color: white;
+	text-decoration: none;
+}
+
+.kontenAtas{
+	margin-top: 30px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+	margin-left: 300px;
+	margin-right: 300px;
+}
+
+.kanan{
+	display: flex;
+	flex-direction: column;
+}
+
+.promosiHead{
+	margin-top: 80px;
+	margin-bottom: 30px;
+}
+
+.promosiHead h1{
+	text-align: center;
+	color: white;
+	/* animation: spin 10s linear infinite; */
+}
+
+.promosi{
+	display: flex;
+	margin-left: 300px;
+	margin-right: 300px;
+	justify-content: space-between;
+	margin-bottom: 100px;
+}
+
+.bedBreakfast img{
+	height: 200px;
+	width: 200px;
+}
+
+.fotoHotel{
+	margin-right: 10px;
+}
+
+.fotoHotel img{
+	height: 200px;
+	width: 250px;
+}
+
+.namaHotel h2{
+	color: white;
+}
+
+.bawahNamaHotel p{
+	color: white;
+}
+
+.bedBreakfast{
+	background-color: white;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+	border-radius: 10px;
+	padding: 10px;
+	/* animation: spin 1s linear infinite; */
+}
+
+.bedBreakfast h2{
+	margin-top: 5px;
+}
+
+.footer{
+	background-color: cyan;
+	display: flex;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	padding: 10px;
+}
+
+.yeah{
+	color: white;
+}
+
+.namamu h1 {
+  /* Create a linear gradient with multiple color stops */
+  background-image: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet);
+  
+  /* Apply the background color as a mask for the text */
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  
+  /* Add animation */
+  background-size: 200% auto;
+  animation: rainbowText 10s linear infinite;
+}
+
+@keyframes rainbowText {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
